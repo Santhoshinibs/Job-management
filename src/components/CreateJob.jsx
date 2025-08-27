@@ -1,7 +1,7 @@
 import React from "react";
 import "./style/CreateJob.css";
 import SaveIcon from "../assets/vector-save.png"; 
-import Vector from "../assets/vector.png"; // go one folder up
+import vector from "../assets/vector.png"; // go one folder up
 
 const CreateJob = () => {
   return (
@@ -54,7 +54,7 @@ const CreateJob = () => {
       <input type="number" placeholder="0" />
     </div>
     <div className="input-with-icon">
-      <img src={Vector} alt="sort" className="vector-icon" />
+      <img src={vector} alt="sort" className="vector-icon" />
       <span className="rupee-symbol">₹</span>
       <input type="number" placeholder="12,00,000" />
     </div>
