@@ -1,0 +1,123 @@
+.job-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(198, 191, 191, 0.25);
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 16px;
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+
+/* Input & Select styles */
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-item input,
+.filter-item select {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #555;
+  background: transparent;
+  width: 180px;
+}
+
+.filter-icon {
+  font-size: 16px;
+  color: #666;
+}
+
+.divider {
+  width: 1px;
+  height: 28px;
+  background: #e0e0e0;
+}
+
+/* Salary Filter Section */
+.salary-range {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+}
+
+.salary-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.salary-values {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Slider Styles */
+.slider-container {
+  position: relative;
+  width: 220px;
+  height: 4px;
+}
+
+.slider-track,
+.slider-range {
+  position: absolute;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.slider-track {
+  background: #ccc;
+  width: 100%;
+  z-index: 1;
+}
+
+.slider-range {
+  background: #000;
+  z-index: 2;
+}
+
+.thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background: none;
+  outline: none;
+}
+
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: all;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #000;
+  cursor: pointer;
+}
+
+.thumb::-moz-range-thumb {
+  pointer-events: all;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #000;
+  cursor: pointer;
+}
+
+
+

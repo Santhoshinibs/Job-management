@@ -1,0 +1,132 @@
+.create-job-container {
+  width: 848px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 24px rgba(169, 169, 169, 0.25);
+  font-family: "Satoshi Variable", sans-serif;
+  position:relative;
+  left:20%;
+}
+
+.create-job-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  height: 58px;
+  padding: 12px 14px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  height: auto;
+}
+
+/* Salary range side by side */
+.salary-range-inputs {
+  display: flex;
+  gap: 12px;
+}
+
+.salary-range-inputs {
+  display: flex;
+  gap: 12px;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.vector-icon {
+  position: absolute;
+  left: 6px;
+  width: 14px;
+  height: 14px;
+}
+
+.rupee-symbol {
+  position: absolute;
+  left: 26px;   /* Push after the vector */
+  font-size: 14px;
+  color: #555;
+}
+
+.input-with-icon input {
+  padding-left: 45px; /* make space for vector + ₹ */
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+/* Make description span full row */
+.textarea-group {
+  grid-column: span 2;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.save-draft {
+  padding: 16px 32px;
+  border: 1.5px solid #222;
+  border-radius: 10px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.publish {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 10px;
+  background: #00aaff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+

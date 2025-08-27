@@ -1,0 +1,75 @@
+.navbar-container {
+  width: 890px;
+  height: 80px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(252, 252, 252, 1);
+  box-shadow: 0px 0px 20px 0px rgba(127, 127, 127, 0.15);
+  border-radius: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 21px;
+  left: 275px;
+  opacity: 1;
+  position:relative;
+  right: 1000%;
+}
+.navbar-logo {
+  width: 40px;
+  height: 45px;
+  position: relative;
+  right: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 40px; /* spacing between menu items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* default if no Figma font exported */
+  font-size: 16px;
+  font-weight: 500;
+  color: #000; /* default black; replace if Figma provides color */
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-menu li:hover {
+  color: #007bff; /* example hover color */
+}
+/* Login button */
+.login-btn {
+  background:  #8636f8;
+  color:white;
+  border: 2px solid #8636f8; /* purple border */
+  border-radius: 40px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position:relative;
+  left:50px;
+}
+
+.create-btn {
+ border: 2px solid #8636f8; 
+  color:white;
+  background:  #8636f8; /* purple border */
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position:relative;
+  left:30px;
+}
+
+
+

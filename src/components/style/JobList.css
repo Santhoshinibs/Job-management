@@ -1,0 +1,10 @@
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 24px; /* space between cards */
+  max-width: 1312px;
+  margin: 40px auto; /* center on page */
+  padding: 20px;
+}
+
+
