@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/CreateJob.css";
-import SaveIcon from "../assets/vector-save.png"; 
+import SaveIcon from "../assets/Vector-save.png"; 
 import vector from "../assets/vector.png"; // go one folder up
 
 const CreateJob = () => {
