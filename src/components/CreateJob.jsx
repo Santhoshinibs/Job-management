@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/CreateJob.css";
-import SaveIcon from "../assets/Vector-save.png"; 
+
 import vector from "../assets/vector.png"; // go one folder up
 
 const CreateJob = () => {
@@ -77,7 +77,7 @@ const CreateJob = () => {
         {/* Buttons */}
         <div className="buttons">
           <button type="button" className="save-draft">
-  Save Draft <img src={SaveIcon} alt="Save Icon" />
+  Save Draft 
 </button>
 
           <button type="submit" className="publish">Publish</button>
