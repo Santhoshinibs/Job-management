@@ -49,7 +49,7 @@ const CreateJob = () => {
   <label>Salary Range</label>
   <div className="salary-range-inputs">
     <div className="input-with-icon">
-      <img src={Vector} alt="sort" className="vector-icon" />
+      <img src={vector} alt="sort" className="vector-icon" />
       <span className="rupee-symbol">₹</span>
       <input type="number" placeholder="0" />
     </div>
